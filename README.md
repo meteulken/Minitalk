@@ -20,7 +20,7 @@ usleep() fonksiyonu, işletim sisteminde çalışan bir programda belirli bir mi
 <h2> pause() </h2>
 pause() fonksiyonu, bir işletim sisteminde çalışan bir programda işlemin sürekli olarak beklemek için kullanılan bir fonksiyondur. Bu fonksiyon, sinyal geldiğinde devam etmeye devam eden bir işlemi durdurur ve sinyal alana kadar bekler. İşlemin devam etmesi için sinyal gerekmektedir.
 
-<h2> Bitsel Operatörler() </h2>
+<h2> Bitsel Operatörler </h2>
 Aşağıdaki C dilindeki örnekler bit kaydırma işlemlerini gösterir:
 
     Sola kaydırma: x = x << 1;
@@ -42,3 +42,13 @@ Bitsel operatörler, binary veriler üzerinde bit bazlı işlemler yapmak için 
     << (Bitsel Sola Kaydırma): Binary veriyi belirli sayıda bit sola kaydırarak binary verinin boyutunu küçültür veya artırır.
 
     >> (Bitsel Sağa Kaydırma): Binary veriyi belirli sayıda bit sağa kaydırarak binary verinin boyutunu küçültür veya artırır.
+    
+  
+<h2> "while(1)" ve "pause()" </h2>  
+"while(1)" ve "pause()" iki farklı programlama yapısıdır ve kodun çalışmasının durması veya gecikmesi için kullanılır.
+
+"while(1)" sonsuz bir döngü oluşturur ve program durdurulana kadar veya "break" ifadesi çalıştırılana kadar sürekli olarak çalışır. Döngü, önemli bir işlem gücü tüketir ve programın dondurulmasına veya donmasına neden olabilir.
+
+"pause()", belirli programlama dilleri ve işletim sistemleri için özel bir fonksiyondur. Programın durmasını veya belirli bir olay veya kullanıcı girdisi beklemesini sağlar, işlem gücü tüketmez. "pause()" nin tam davranışı belirli programlama diline ve işletim sistemine bağlıdır, ancak genellikle bir tuşa basılması veya diğer kullanıcı etkileşimi beklenmeden çalışmaya devam etmeden önce beklenir.
+
+Genel olarak, "while(1)" bir programda beklemek veya gecikmek için önerilmez, önemli bir işlem gücü tüketir ve programın dondurulmasına veya donmasına neden olabilir.
